@@ -218,13 +218,13 @@
 
 @media (max-width: 1600px) {
     .fh5co-top-banner {
-        padding-top: 30px;
+        padding-top: 10%;
     }
 }
 
 @media (max-width: 1250px) {
     .fh5co-top-banner {
-        padding-top: 40px;
+        padding-top: 25%;
     }
 }
 
