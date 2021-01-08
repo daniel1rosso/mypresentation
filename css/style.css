@@ -423,19 +423,20 @@
 
 .fh5co-about-me {
     position: relative;
-    margin: 105px 0 199px;
+    margin: 45px 0 199px;
     margin-bottom: 125px;
+    height: 100%;
 }
 
 @media (max-width: 1250px) {
     .fh5co-about-me {
-        margin: 80px 0;
+        margin: 30px 0;
     }
 }
 
 @media (max-width: 992px) {
     .fh5co-about-me {
-        margin: 80px 0;
+        margin: 30px 0;
         margin-bottom: 110px;
     }
 }
@@ -605,15 +606,16 @@
     }
 }
 
-@media (min-width: 750px) and (max-width: 1250px) {
+@media (min-width: 993px) and (max-width: 1250px) {
     .about-me__text {
         padding-top: 27%;
+        text-align: justify;
+        width: 44%;
     }
 }
 
 .about-me__text {
-    width: 44%;
-    margin-right: 80px;
+    width: 100%;
     text-align: center;
 }
 
@@ -634,9 +636,15 @@
     color: #fff;
 }
 
-@media (max-width: 620px) {
+@media (max-width: 490px) {
     .about-me__text p {
-        margin-bottom: 20px;
+        font-size: 16px;
+        line-height: 22px;
+    }
+}
+
+@media (min-width: 490px) and (max-width: 993px) {
+    .about-me__text p {
         font-size: 14px;
         line-height: 19px;
     }
@@ -653,17 +661,26 @@
     color: #fff;
 }
 
-@media (max-width: 1250px) {
+@media (min-width: 993px) {
     .about-me__text {
-        width: 48%;
+        padding-top: 0%;
         margin-right: 40px;
+        font-size: 14px;
+        line-height: 22px;
+        top: 50%;
+        margin-top: -170px;
+        left: 50%;
+        position: absolute;
+        line-height: 4em;
+        text-align: justify;
+        width: 44%;
     }
 }
 
-@media (max-width: 992px) {
+@media (max-width: 900px) {
     .about-me__text {
-        width: 100%;
-        margin-right: 0;
+        top: 50%;
+        line-height: 4em;
     }
 }
 
@@ -872,6 +889,7 @@
 }
 
 .fh5co-blog {
+    margin-top: 105px;
     margin-bottom: 105px;
 }
 
