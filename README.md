@@ -9,4 +9,4 @@ Lo que contiene este repositorio que estas actualmente viendo es simplemente una
   - Medios de conectato.
 
 Te invito a que lo puedas ver o visitar a la siguiente dirección:
-www.danielalbertorosso.com
+www.danielalbertorosso.com.ar
